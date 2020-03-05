@@ -1,0 +1,40 @@
+my course notes
+
+course structure:
+    The Basics
+    Components & Databinding
+    Directives
+    Services & Dependancy Injection
+    Routing
+    Observables
+    Forms
+    Pipes
+    Http
+    Authentication
+    Optimizations & NgModules
+    Deployment
+    Animations & Testing
+
+new project set up
+    1. ng new to create new project
+    2. delete basic data from app.component.html
+    3. add bootstrap to each project by:
+        - run: npm install --save bootstrap@3 
+        - angular.json styles: "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+TypeScript Introduction:
+    - Classes:
+        - constructor keyword
+        - private keyword
+
+    - Interfaces
+        - like contract
+        - defines property and methods a class has to implement if 
+            it inherits the interface
+        - '?' optional property, doesn't have to be implemented
+
+    - Modules:
+        - export keyword allows classes to be used in other files
+        - modularity throughout the application in order export classes
+            for other parts of the project
+        - modularity approach
